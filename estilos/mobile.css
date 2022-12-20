@@ -1,0 +1,193 @@
+/*967*/
+
+@media screen and  (max-width:1005px) {
+ .part2 {
+  display: none;
+ }
+ 
+  #header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-left: 4em;
+}
+
+
+ul {
+  background-color: rgb(21, 21, 21);
+  display: grid;
+  margin-top: 15em;
+border: 2px solid rgba(0, 0, 0, 0.301);
+}
+
+li {
+  margin: 10px;
+}
+
+
+
+#burguer {
+  display: block;
+  position: relative; 
+  
+  font-size: 45px;
+  color: rgb(15, 194, 192) ;
+margin-right: 5px;
+}
+
+#burguer:hover {
+cursor: pointer;
+}
+
+ #menu {
+display: none;
+ }
+
+ #sec1 {
+  text-align: center;
+  margin: 0px;
+ }
+
+
+ .div1 {
+   display: grid;
+   margin-left: 3.7em;
+ }
+ 
+ .div2 {
+   display: grid;
+   margin-left: 3.7em;
+ }
+ .div3 {
+  display: grid;
+  margin-left: 3.7em;
+}
+
+#sec2 {
+  height: 170vh;
+}
+
+.lado2 {
+ 
+}
+ 
+}
+
+.lado2 > h2 {
+margin-bottom: 7em;
+
+}
+
+.sobre {
+  position: relative;
+  bottom: 5em;
+}
+
+@media screen and (max-width:1228px) {
+  #sec2 {
+    height: 130vh;
+  }
+}
+
+/*========SEC3=======*/ 
+
+@media screen and (max-width:870px) {
+  .lado1{
+    display: none;
+  }
+ #sec2 {
+align-items: center;
+justify-content: center;
+height: 120vh;
+ }
+
+ .lado2  {
+  position: relative;
+bottom: -1em;
+}
+
+.lado2  > h2 {
+  position: relative;
+  margin-bottom: 8em;
+}
+
+.lado2 > p {
+  position: relative;
+ 
+}
+
+.botao3 {
+  position: relative;
+  bottom: -8em;
+}
+}
+
+
+
+@media  screen and (max-width:632px) {
+  #sec2{
+height: 170vh;
+  }
+
+.lado2 {
+  
+  position: relative;
+  top: 10em;
+  
+}
+
+  .lado2 > h2 {
+    position: relative;
+  
+  top: -7em;
+  }
+  .sobre {
+    position: relative;
+    bottom: 15em;
+  }
+
+  .botao3 {
+    position: relative;
+    bottom: 7em;
+  }
+
+}
+
+@media screen  and (max-width:544px){
+  .lado2 > h2 {
+    position: relative;
+    margin-top: 5em;
+  }
+  .botao3 {
+    bottom: 10em;
+  }
+}
+
+@media screen and (max-width:1154px) {
+  .lado2 > h2 {
+    position: relative;
+    
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .bsj {
+    margin-right: -2.5em;
+  }
+
+  .div1 {
+    margin-left: -1em;
+  }
+.div2 {
+  margin-left: -1em;
+}
+.div3 {
+  margin-left: -1em;
+}
+}
+
+
+
+
